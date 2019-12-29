@@ -55,8 +55,8 @@ Train like Super Saiyan
 
 
 ### Other Models Tried
-  1. WIDE Resnet with Depth=16 Width=2 and Separable Conv2D 
-  2. Modified DavidNet with 3 Layer Depth, Separable Conv2D.
-  3. ResNet50v2
-  4. InceptionV3
-  5. Simple CNN with Separable Conv2D
+	1. WIDE Resnet with Depth=16 Width=2 and Separable Conv2D 
+	2. Modified DavidNet with 3 Layer Depth, Separable Conv2D.
+	3. ResNet50v2
+	4. InceptionV3
+	5. Simple CNN with Separable Conv2D
