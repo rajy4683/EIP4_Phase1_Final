@@ -11,6 +11,8 @@ Train like Super Saiyan
      val_emotion_output_acc	      0.679134
 ### Model Name
     Wide ResNet (base Model Code: https://github.com/titu1994/Wide-Residual-Networks)
+    File Name In Repo:
+    	WRN_A5_wide_rkg_wrn_gml_rkg_rjy_gml.ipynb
 ### Training Methodology
     1. Initialize Method
     2. Default Batch Size = 16
@@ -52,7 +54,7 @@ Train like Super Saiyan
 
 
 ### Other Models Tried
-  1. WIDE Resnet with Depth=16 Width=2 and Separable Conv2D
+  1. WIDE Resnet with Depth=16 Width=2 and Separable Conv2D 
   2. Modified DavidNet with 3 Layer Depth, Separable Conv2D.
   3. ResNet50v2
   4. InceptionV3 
