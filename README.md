@@ -27,7 +27,7 @@ Train like Super Saiyan
         'pose_output': 3, 
         'footwear_output': 2, 
         'emotion_output': 4}
-####
+####  Training Stages
     1. Stage1 - Convergence procedure to stabilize loss:
        a. Epochs=100 Steps_per_epoch=30
        b. Epochs=100 Steps_per_epoch=100
@@ -42,7 +42,7 @@ Train like Super Saiyan
     4. Stage 4:
         a. Final round of subsequent runs
 	   
-###     
+####   Accuracy at Various stages  
                                   Stage1  Stage2  Stage3  Stage4
      val_gender_output_acc	      0.8233	0.8489	0.8853  0.886319
      val_image_quality_output_acc	0.5536	0.5399	0.5576  0.562008
@@ -60,3 +60,5 @@ Train like Super Saiyan
 	3. ResNet50v2
 	4. InceptionV3
 	5. Simple CNN with Separable Conv2D
+#### Useful tools:
+	1. Plotter Notebook for monitoring Training progress
