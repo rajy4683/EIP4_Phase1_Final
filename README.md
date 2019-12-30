@@ -53,12 +53,15 @@ Train like Super Saiyan
      val_footwear_output_acc      0.658   0.6708	0.6683	0.670768
      val_emotion_output_acc       0.7077	0.6944	0.686   0.679134
 
-
+### Learning Rate Techniques used:
+	1. One Cycle LR policy
+	2. Cyclic LR with Triangular and Triangular2
 ### Other Models Tried
 	1. WIDE Resnet with Depth=16 Width=2 and Separable Conv2D 
 	2. Modified DavidNet with 3 Layer Depth, Separable Conv2D.
 	3. ResNet50v2
 	4. InceptionV3
-	5. Simple CNN with Separable Conv2D
+	5. Simple CNN with Separable Conv2D with Nesterov
+	6. Davnet model with TF and weight decay
 #### Useful tools:
 	1. Plotter Notebook for monitoring Training progress
