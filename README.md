@@ -1,5 +1,14 @@
 # EIP4_Phase1_Final
-Train like Super Saiyan
+The objective of the assignment is to create a DNN that can achieve highest accuracy on multiclass and multilabel classification task
+Each image in the dataset was annotated with the following attributes:
+1. Gender
+2. Image Quality
+3. Age
+4. Weight
+5. Carrying a Bag
+6. Face Pose
+7. Footwear
+8. Emotion
 ### Final Score
      val_gender_output_acc	      0.886319
      val_image_quality_output_acc	0.562008
